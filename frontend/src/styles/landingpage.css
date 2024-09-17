@@ -1,0 +1,86 @@
+.landing-page {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page .user-login {
+  border-radius: 10px;
+  background-color: rgba(59, 58, 58, 0.89);
+  position: absolute;
+  right: 10%;
+  opacity: 0.95;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #000;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  row-gap: 30px;
+}
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.hero-cta button {
+  border-radius: 30px;
+  background-color: #ff7b00;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.hero-cta button:hover {
+  background-color: #d17824;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+
+  line-height: 1;
+  color: #fff;
+}
+.hero-video {
+  height: 100vh;
+}
+video {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.hero-text {
+  line-height: 1.5;
+  color: #edeee7;
+}
+@media only screen and (max-width: 650px) {
+  .hero {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .hero-text,
+  .hero h1 {
+    color: #000;
+  }
+  .landing-page .user-login {
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  .hero-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-video {
+    height: 40%;
+  }
+}

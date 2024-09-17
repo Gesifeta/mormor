@@ -1,0 +1,108 @@
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pin-status {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: right;
+  border-bottom: 1px solid #e9e5e5;
+  color: #000;
+  align-items: center;
+  width: 100%;
+  column-gap: 20px;
+  align-self: center;
+  font-weight: normal;
+  cursor: pointer;
+}
+.pin-status span {
+  background-color: rgb(109, 231, 125);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.pin-status .status {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+.pin-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pin-container img {
+  justify-self: center;
+  width: 70%;
+  height: 60%;
+}
+.pin-comment {
+  padding: 12px;
+  border: 1px solid #e4e8e9;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  padding: 15px 10px;
+}
+.pin-comment textarea {
+  padding: 12px;
+  font-family: "Lato", sans-serif;
+  border: 0.5px solid rgb(54, 100, 226);
+  font-size: 14px;
+  border-radius: 10px;
+  height: 40px;
+}
+.pin-comment textarea:hover {
+  height: 100px;
+  transition: height 0.3s ease-out;
+}
+.post-comment {
+  text-align: right;
+}
+.post-comment button {
+  padding: 8px 12px;
+  background-color: #afd1da;
+  font-weight: bold;
+}
+.pin-comment button:hover {
+  cursor: pointer;
+}
+.comments {
+  margin: 3px 12px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(226, 223, 223);
+  padding: 12px;
+  border-radius: 5px;
+  row-gap: 3px;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #fff;
+}
+.comments .user-info {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 6px;
+}
+.comments .user-info .details {
+  color: #000;
+  font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.comments .user-info img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.likes {
+  margin-top: 10px;
+  cursor: pointer;
+  color: rgba(19, 70, 179, 0.867);
+}

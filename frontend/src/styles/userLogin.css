@@ -1,0 +1,62 @@
+.user-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  row-gap: 30px;
+  background-color: var(--backgroundSecondarycolor);
+}
+section .user-login--form {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.29);
+  background-color: rgba(0, 0, 0, 0.89);
+  border-radius: 10px;
+  padding: 60px 30px;
+}
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--btnBackgroundPrimary);
+  box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.15rem;
+  max-height: 50px;
+}
+.btn-primary.btn-primary svg {
+  max-height: 30px;
+  align-self: center;
+}
+.btn-primary:active {
+  transform: scaleX(99%);
+  background-color: #8dd7e4;
+}
+.login-methods {
+  display: flex;
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  row-gap: 10px;
+}
+.password-form {
+  margin: 20px;
+}
+.password-reset {
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 50%;
+  margin: auto;
+}

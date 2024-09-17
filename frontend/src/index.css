@@ -1,0 +1,14 @@
+@import url("./styles/reset.css");
+@import url("./styles/global.css");
+@import url("./styles/header.css");
+@import url("./styles/footer.css");
+@import url("./styles/sidebar.css");
+@import url("./styles/home.css");
+@import url("./styles/userLogin.css");
+@import url("./styles/navbar.css");
+@import url("./styles/pin.css");
+@import url("./styles/register.css");
+@import url("./styles/masonry.css");
+@import url("./styles/pinDetail.css");
+@import url("./styles/landingpage.css");
+@import url("./styles/spinner.css");

@@ -1,0 +1,139 @@
+.pin {
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -0.25px 1px 1px 2px rgba(99, 97, 97, 0.19);
+  background-color: var(--backgroundSecondarycolor);
+  cursor: pointer;
+  transform: scale(99%);
+}
+.pin > img {
+  width: 200px;
+}
+.pin:hover {
+  transform: scale(1);
+  transition: transform 0.25s ease-out;
+}
+.pin-feeds {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: feeds;
+  row-gap: 5px;
+}
+.form-pin {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  grid-template-rows: auto;
+  margin: auto;
+  width: 100%;
+}
+.form-pin .btn-primary {
+  width: 100%;
+}
+.pin-operations {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+  color: #fff;
+}
+.pin-operations div {
+  margin: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.pin-task {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  background-color: red;
+  border-radius: 100%;
+}
+.pin-footer {
+  display: flex;
+  justify-content: left;
+  background-color: var(--backgroundSecondarycolor);
+  color: #000;
+  padding: 3px 3px;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pin-detail,
+.pin-detail-user {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.pin-image--upload,
+.user-image--upload {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.5px 0.5px 0.5px 1px
+    rgba(141, 134, 134, 0.26);
+  background-color: var(--backgroundSecondarycolor);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pin-image--upload img,
+.user-image--upload img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.image-upload {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 9px 12px 9px 12px;
+  background-color: rgb(185, 23, 23);
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.btn-remove {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 5px;
+}
+.pin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.post-detail-user {
+  background-color: var(--backgroundSecondarycolor);
+  padding: 5px;
+  display: flex;
+  column-gap: 8px;
+  font-size: 12px;
+}
+
+.post-detail-user img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

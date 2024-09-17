@@ -1,0 +1,95 @@
+.nav-bar {
+  padding: 10px 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  grid-area: nav-bar;
+}
+.nav-bar img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.nav-header {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: nowrap;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  position: relative;
+  margin-left: 20px;
+  flex-basis: 100%;
+}
+.search-icon {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+.search .search-input {
+  padding-left: 30px;
+  border-radius: 8px;
+  outline: 0.5px;
+  border: none;
+  width: 100%;
+}
+.profile {
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.setting {
+  background-color: var(--backgroundSecondarycolor);
+  top: 40px;
+  right: 0;
+  display: none;
+  position: absolute;
+  flex-direction: row;
+  column-gap: 5px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.setting-user li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-weight: normal;
+}
+
+.setting-user li:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.show {
+  display: flex;
+}
+.app__gallery-add {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(43, 226, 113);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: .25rem;
+  cursor: pointer;
+}
+.app__gallery-add:hover{
+  background-color: rgb(240, 255, 247);
+}

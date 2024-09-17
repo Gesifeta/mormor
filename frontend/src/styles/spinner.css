@@ -1,0 +1,17 @@
+.app__spinner-container {
+    display: flex;
+    align-items: center;
+    background-color: #4d1e1e;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.app__spinner {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    background-color: rgb(8, 8, 8);
+    color: #ffffff;
+
+}

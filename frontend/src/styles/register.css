@@ -1,0 +1,51 @@
+.user-form--register {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.user-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 20px;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+.app__upload-container {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 1rem;
+  right: 2rem;
+  top: 3rem;
+  padding-top: 2rem;
+  height: 200px;
+  background-color: rgb(218, 216, 215);
+  z-index: 200;
+  box-shadow: 1px 1px 4px rgba(170, 169, 169, 0.26),
+    -1px 1px 4px rgba(170, 169, 169, 0.26),
+    1px -1px 4px rgba(170, 169, 169, 0.26);
+}
+.profile{
+  position: relative;
+
+}
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 6px;
+  cursor: pointer;
+}
+.user-address {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--backgroundSecondarycolor);
+  border-radius: 10px;
+  padding: 12px 10px;
+  width: 100%;
+}

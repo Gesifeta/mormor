@@ -1,0 +1,61 @@
+:root {
+  --textLightgray: #f1efee;
+  --textPrimary: #555454;
+  --textSecondarycolor: #efefef;
+  --textNavcolor: #bebebe;
+  --backgroundMaincolor: #fbf8f9;
+  --backgroundSecondarycolor: #f0f0f0;
+  --backgroundBlackoverlay: rgba(0, 0, 0, 0.7);
+  --btnBackgroundPrimary: #45a0ebe3;
+  --backgroundAccent: #fe6d98;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: var(--textPrimary);
+  background-color: var(--backgroundMaincolor);
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+select {
+  border-radius: 3px none inherit;
+  min-height: 20px;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 16px;
+  opacity: 0.75;
+  box-sizing: border-box;
+  outline: none;
+}
+footer{
+  grid-area: footer;
+}
+label {
+  opacity: 0.65;
+}
+input[type="button"],
+button {
+  min-height: 20px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  text-wrap: nowrap;
+}
+input:focus {
+  border-color: #a8cebf;
+}
+input[type="button"] {
+  border: none;
+}
+textarea:focus {
+  outline: 0.5px solid #a8cebf;
+}
+li {
+  text-wrap: nowrap;
+}
